@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EcommerceExam</string>
+    <string name="loginHeader">Giriş</string>
+    <string name="textPhone">Telefon Numarası</string>
+    <string name="phoneEditTextHint">Cep telefonu</string>
+    <string name="textPassword">Şifre</string>
+    <string name="passwordEditTextHint">Parola</string>
+    <string name="loginButtonText">Giriş Yap</string>
+    <string name="continueButtonText">Üye olmadan devam et</string>
+
+    <string name="loginErrorTitle">Giriş yapılamadı!</string>
+    <string name="loginErrorMessage">Telefon numaranız ve şifreniz yanlış olabilir. Tekrar kontrol ediniz</string>
+
+
+    <string name="loadingLoginTitle">Giriş yapılıyor</string>
+    <string name="loadingLoginMessage">Lütfen biraz bekleyiniz…</string>
+    <string name="headerProductText">Ürünler</string>
+    <string name="defaultSubTotalText">₺0,0</string>
+</resources>
