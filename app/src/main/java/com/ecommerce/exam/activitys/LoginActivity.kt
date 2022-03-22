@@ -127,6 +127,7 @@ class LoginActivity : AppCompatActivity() {
 
 
             continueButton.setOnClickListener {
+                isLogin = false
                 val intent = Intent(this@LoginActivity, ProductActivity::class.java)
                 intent.putExtra("isLogin", false)
                 startActivity(intent)
