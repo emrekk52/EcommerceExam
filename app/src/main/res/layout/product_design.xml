@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:padding="2dp"
     android:layout_margin="5dp">
 
     <androidx.cardview.widget.CardView
@@ -71,7 +72,6 @@
         android:gravity="center"
         android:textColor="@color/loginButtonColor"
         android:textSize="10sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/cardView"
         app:layout_constraintStart_toStartOf="@+id/cardView"
         app:layout_constraintTop_toBottomOf="@+id/brandName" />
