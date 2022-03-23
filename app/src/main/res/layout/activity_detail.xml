@@ -11,6 +11,7 @@
         layout="@layout/top_bar" />
 
 
+
     <ImageView
         android:id="@+id/productImage"
         android:layout_width="0dp"
@@ -80,6 +81,8 @@
         android:padding="10dp"
         android:textColor="@color/black"
         android:textSize="18sp"
+        android:maxLines="3"
+        android:ellipsize="end"
         android:visibility="gone"
         app:layout_constraintEnd_toEndOf="@+id/materialDivider"
         app:layout_constraintStart_toStartOf="@+id/materialDivider"

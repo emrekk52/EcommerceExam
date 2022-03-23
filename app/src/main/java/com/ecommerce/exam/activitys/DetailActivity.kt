@@ -65,12 +65,9 @@ class DetailActivity : AppCompatActivity() {
 
     private fun checkIsLogin() {
 
-        if (isLogin) {
-            binding.topBarInclude.shopLayout.visibility = View.VISIBLE
-            binding.addButton.visibility = View.VISIBLE
-        } else {
+        if (!isLogin) {
             binding.topBarInclude.shopLayout.visibility = View.INVISIBLE
-            binding.addButton.visibility = View.GONE
+            binding.addButton.visibility = View.INVISIBLE
         }
 
     }

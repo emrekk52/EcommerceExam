@@ -30,7 +30,7 @@ class ProductActivity : AppCompatActivity() {
 
         setUpTabLayoutWithViewPager()
 
-        onClick()
+        onClicks()
 
 
         subTotal.observe(this) {
@@ -59,7 +59,7 @@ class ProductActivity : AppCompatActivity() {
     }
 
 
-    private fun onClick() {
+    private fun onClicks() {
 
         binding.apply {
 
@@ -76,15 +76,8 @@ class ProductActivity : AppCompatActivity() {
     private fun checkIsLogin() {
         binding.apply {
 
-            if (isLogin) {
-
-                topBarInclude.shopLayout.visibility = View.VISIBLE
-
-
-            } else {
-
+            if (!isLogin) {
                 topBarInclude.shopLayout.visibility = View.INVISIBLE
-
             }
 
 
