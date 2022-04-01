@@ -1,7 +1,5 @@
 # EcommerceExam
 
-<h3>This repository is prepared for the Turkcell bootcamp midterm assignment.</h3>
-
 
 <table>
   
